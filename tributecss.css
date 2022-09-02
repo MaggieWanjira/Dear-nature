@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+   
+ }
+    
+/* The main div with background image */
+.hero{
+    background-image:  url(ronald.jpg);
+    height: 100%;
+    width: 100%;
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    overflow: hidden;
+}
+/* The navigation bar */
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+}
+#logo{
+    color: white;
+    text-transform: uppercase;
+    font-weight: lighter;
+}
+/* Styling the links in the Navigation bar */
+nav ul li{
+    list-style: none;
+    display: inline-block;
+    padding: 10px 20px;
+}
+
+/*the links in nav bar*/
+nav ul li a{
+    color: white;
+    font-size: 18px;
+    text-decoration: none;
+    
+}
+nav ul li a:hover{
+    color: black;
+    font-weight: bold;
+    transition: .4s;
+
+}
+
+/* css for the box with text */
+
+.tribute_msg{
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    width: 80%;
+    height: 60%;
+    background-color:rgba(0,255,0,0.1);
+    backdrop-filter: blur(5px);
+    border-radius: 10px;
+    /* box-shadow: 20px 20px 20px #67bd67;  */
+    padding: 25px 25px;
+    margin-top: 50px;
+    margin-bottom: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+    color: white;
+}
+button{
+    background-image: -moz-linear-gradient(to left,#006400,#70aa00);
+    padding: 5px;
+    border: none;
+    border-radius: 10px;
+    color: white;
+    transition: .4s;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    transform: scale(.9);
+}
+
